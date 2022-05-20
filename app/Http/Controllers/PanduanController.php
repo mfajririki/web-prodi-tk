@@ -43,7 +43,7 @@ class PanduanController extends Controller
         });
 
         // Redirect the user to the created post with a success notification
-        return redirect(route('panduan.index'))->with('alert', 'Panduan berhasil dibuat!');
+        return redirect(route('admin-panduan.index'))->with('alert', 'Panduan berhasil dibuat!');
     }
 
     public function show($id)
@@ -71,14 +71,14 @@ class PanduanController extends Controller
                 'title'          => $request->title,
             ]);
 
-        return redirect(route('panduan.index'))->with('alert', 'Pengumuman berhasil diupdate!');
+        return redirect(route('admin-panduan.index'))->with('alert', 'Pengumuman berhasil diupdate!');
     }
 
     public function destroy(Panduan $panduan)
     {
         $panduan->delete();
 
-        return redirect(route('panduan.index'))->with('alert', 'Pengumuman berhasil dihapus!');
+        return redirect(route('admin-panduan.index'))->with('alert', 'Pengumuman berhasil dihapus!');
     }
 
     public function hapus_doc($id, Request $request)
