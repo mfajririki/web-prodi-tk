@@ -2,7 +2,7 @@
     <div class="row mx-auto" style="margin-top: 100px">
         <div class="col align-self-center">
             <p class="judul">PROGRAM STUDI TEKNIK KOMPUTER</p>
-            <P class="judul">FAKULTAS ILMU KOMPUTER</P>
+            <P class="judul">VOKASI DIPLOMA 3</P>
             <P class="judul">UNIVERSITAS BINA DARMA</P>
             <img src={{ asset('assets/images/TeknikKomputer.png') }} alt="Teknik Komputer Akreditasi"
                 style="width: 200px" class="text-end">
